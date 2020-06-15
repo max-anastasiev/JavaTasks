@@ -10,7 +10,7 @@ public class For {
         System.out.println("Enter number: ");
         int n = reader.nextInt();
 
-        if(n > 0) {
+        if(n >= 0) {
 
             for (int i = 0; i <= n; i++){
 
@@ -24,7 +24,7 @@ public class For {
             }
 
         }
-        if(n < 0){
+        else {
 
             for (int i = 0; i >= n; i--){
 

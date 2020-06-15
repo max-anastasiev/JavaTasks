@@ -11,7 +11,7 @@ public class DoWhile {
         int n = reader.nextInt();
         int i = 0;
 
-        if(n > 0){
+        if(n >= 0){
 
             do{
 
@@ -29,7 +29,7 @@ public class DoWhile {
             while (i <= n);
         }
 
-        if (n < 0){
+        else {
 
             do{
 

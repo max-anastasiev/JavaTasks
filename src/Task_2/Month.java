@@ -8,6 +8,15 @@ public class Month {
 
         Scanner reader = new Scanner(System.in);
         System.out.println("Enter number: ");
+
+//        Alternative
+//        System.out.println("Enter number from 1 to 12: ");
+//        int i = reader.nextInt();
+//
+//        String[] month = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+//        System.out.println = (month[i-1]);
+
+
         int n = reader.nextInt();
 
         switch (n) {

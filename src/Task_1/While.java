@@ -10,7 +10,7 @@ public class While {
         System.out.println("Enter number: ");
         int n = reader.nextInt();
 
-        if(n > 0){
+        if(n >= 0){
 
            int i = 0;
 
@@ -28,7 +28,7 @@ public class While {
             }
         }
 
-        if (n < 0){
+        else {
 
             int i = 0;
 
