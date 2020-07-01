@@ -7,7 +7,7 @@ public interface FastFood {
     int food();
 
     default int foods() {
-        System.out.println("\nThis is default foods() method from Interface");
+        System.out.println("This is default foods() method");
         return 2;
     }
 }
